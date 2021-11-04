@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      * {
+        margin: 0;
+      }
+      .hidden {
+        display: none !important;
+      }
+      .winner {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        z-index: 1;
+        width: 100vw;
+        height: 100vh;
+      }
+    </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/matter-js/0.17.1/matter.min.js"></script>
+  </head>
+  <body>
+    <div class="winner hidden">
+      <h1 style="color: green">You Win!</h1>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
